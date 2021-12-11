@@ -1,0 +1,203 @@
+@charset "UTF-8";
+
+// 清除浮动
+.clearfix:before,
+.clearfix:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.flex-center {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.block-center {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.img-res {
+  width: 100%;
+  height: 100%;
+}
+
+// 行切断
+.cut-one {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.cut-two {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+
+// visibility
+.vis-hidden {
+  visibility: hidden !important;
+}
+.vis-visible {
+  visibility: visible !important;
+}
+
+// width
+.w-5 {
+  width: 5%;
+}
+// width
+.w-10 {
+  width: 10%;
+}
+// width
+.w-20 {
+  width: 20%;
+}
+// width
+.w-30 {
+  width: 30%;
+}
+// width
+.w-50 {
+  width: 50%;
+}
+.w-100 {
+  width: 100%;
+}
+
+// margin & padding
+.mr-5 {
+  margin-right: 5px !important;
+}
+.mr-10 {
+  margin-right: 10px !important;
+}
+.mr-15 {
+  margin-right: 15px !important;
+}
+.mr-20 {
+  margin-right: 20px !important;
+}
+.mr-25 {
+  margin-right: 25px !important;
+}
+.mr-30 {
+  margin-right: 30px !important;
+}
+
+.ml-5 {
+  margin-left: 5px !important;
+}
+.ml-10 {
+  margin-left: 10px !important;
+}
+.ml-15 {
+  margin-left: 15px !important;
+}
+.ml-20 {
+  margin-left: 20px !important;
+}
+.ml-25 {
+  margin-left: 25px !important;
+}
+.ml-30 {
+  margin-left: 30px !important;
+}
+
+.mt-5 {
+  margin-top: 5px !important;
+}
+.mt-10 {
+  margin-top: 10px !important;
+}
+.mt-15 {
+  margin-top: 15px !important;
+}
+.mt-20 {
+  margin-top: 20px !important;
+}
+.mt-25 {
+  margin-top: 25px !important;
+}
+.mt-30 {
+  margin-top: 30px !important;
+}
+.mt-50 {
+  margin-top: 50px !important;
+}
+
+.mb-5 {
+  margin-bottom: 5px !important;
+}
+.mb-10 {
+  margin-bottom: 10px !important;
+}
+.mb-15 {
+  margin-bottom: 15px !important;
+}
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+.mb-25 {
+  margin-bottom: 25px !important;
+}
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+.margin-auto {
+  margin: auto;
+}
+
+// flex
+.flex {
+  display: flex;
+}
+.align-items-center {
+  display: flex;
+  align-items: center;
+}
+.justify-content-center {
+  display: flex;
+  justify-content: center;
+}
+.flex-1 {
+  flex: 1;
+}
+
+// position
+.position-absolute-bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+// color
+.color_parmary {
+  color: #409eff;
+}
+.color_success {
+  color: #67c23a;
+}
+.color_info {
+  color: #909399;
+}
+.color_warning {
+  color: #e6a23c;
+}
+.color_danger {
+  color: #f56c6c;
+}

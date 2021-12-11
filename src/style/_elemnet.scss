@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+// elemnet样式全局调整
+
+// 保证notification的内容不会突破UI区域
+.el-notification__content p {
+  width: 240px;
+  overflow-x: hidden;
+}
+
+.el-submenu__title {
+  width: 200px;
+}
+
+// 表格设置固定宽度后线条不对齐
+.el-table th.gutter {
+  display: table-cell !important;
+}

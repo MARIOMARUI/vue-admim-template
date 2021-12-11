@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.content-main {
+  flex: auto;
+  background-color: #ffffff;
+  border-radius: 2px;
+  padding: 15px;
+}
+
+.content-search {
+  text-align: right;
+}
+
+.content-edit {
+  margin-top: 20px;
+  text-align: left;
+
+  .el-button {
+    margin-right: 10px;
+  }
+}
+
+.content-table {
+  margin-top: 10px;
+}
+
+.content-pagination {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}

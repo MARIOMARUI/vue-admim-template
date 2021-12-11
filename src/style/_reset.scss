@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #333333;
+  background: #F5F5F5;
+  //
+  height: 100%;
+}
+
+// 去除常用标签的margin和padding
+button, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+// input, textarea, th, td, form, fieldset, ol, ul, dd, dt, dl  {
+//   margin: 0;
+//   padding: 0;
+// }
+
+// 去除边框
+button {
+  border: none;
+}
+// img, textarea, button, input, table, thead, tbody, tfoot, tr, th, td, legend, iframe, fieldset {
+//   border: none;
+// }
+
+// 去除列表样式
+// ol, ul {
+//   list-style: none;
+// }
+
+// 标题样式
+h1, h2, h3, h4, h5, h6, th {
+  font-weight: 400;
+}
+
+// a标签无下划线
+a, a:hover {
+  text-decoration: none;
+}
+
+// 添加手势
+button {
+  cursor: pointer;
+}
+// a, label, input[type=button], input[type=submit], input[type=file],select {
+//   cursor: pointer;
+// }
+
+// 去除交互标签样式
+button {
+  outline: none;
+  background: transparent;
+}
+// input, select, textarea {
+//   outline: none;
+//   background: transparent;
+// }
+
+// 图片
+img {
+  display: block;
+}

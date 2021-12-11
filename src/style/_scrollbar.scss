@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/*全局滚动条样式*/
+// vertical垂直方向 horizontal水平方向
+
+// 1
+// ::-webkit-scrollbar {
+//   width: 5px;
+//   height: 5px;
+// }
+
+// ::-webkit-scrollbar-thumb {
+//   background-color: #409eff;
+//   -webkit-border-radius: 6px;
+// }
+
+//滚动条样式
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: transparent; //滚动槽
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  height: 12px;
+  background-color: #bdbdbd;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  width: 12px;
+  background-color: #bdbdbd;
+  border-radius: 6px;
+}
+
+//滚动条鼠标移上去的样式
+::-webkit-scrollbar-thumb:vertical:hover,
+::-webkit-scrollbar-thumb:horizontal:hover {
+  background-color: #2488e6;
+}

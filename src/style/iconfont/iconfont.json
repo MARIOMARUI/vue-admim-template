@@ -1,0 +1,16 @@
+{
+  "id": "2379829",
+  "name": "elemnet-ui",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "elemnet-ui的图标的补全优先使用:https://www.iconfont.cn/collections/detail?cid=9402",
+  "glyphs": [
+    {
+      "icon_id": "4767059",
+      "name": "menu",
+      "font_class": "menu",
+      "unicode": "e7f4",
+      "unicode_decimal": 59380
+    }
+  ]
+}
